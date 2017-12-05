@@ -13,6 +13,7 @@ terragrunt = {
 
       arguments = [
         "-var-file=${get_tfvars_dir()}/${path_relative_from_include()}/common.tfvars",
+        "-var-file=${get_tfvars_dir()}/${find_in_parent_folders("common.tfvars")}",
       ]
     }
   }
@@ -27,4 +28,5 @@ terragrunt = {
       encrypt = true
     }
   }
+  
 }

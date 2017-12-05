@@ -1,0 +1,18 @@
+terragrunt = {
+  terraform {
+    #source = "git@github.com:sugarush/terraform-modules.git//instance"
+    source = "../../../../terraform-modules/instance"
+  }
+
+  include {
+    path = "${find_in_parent_folders()}"
+  }
+
+  dependencies {
+    paths = [ "../security/group", "../security/rules" ]
+  }
+}
+
+nodes = 1
+type = "t2.micro"
+public = true
