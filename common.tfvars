@@ -4,7 +4,7 @@ environment = "alpha"
 
 region = "us-west-2"
 
-ami = "ami-2e77d256"
+ami = "ami-ff3b9e87"
 
 key = "sugarush"
 
