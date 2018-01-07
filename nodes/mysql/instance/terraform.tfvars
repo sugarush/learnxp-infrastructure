@@ -13,5 +13,5 @@ terragrunt = {
   }
 }
 
-nodes = 3
+nodes = 1
 type = "t2.micro"
