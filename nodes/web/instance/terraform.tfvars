@@ -13,6 +13,7 @@ terragrunt = {
   }
 }
 
-nodes = 2
 type = "t2.micro"
+nodes = 1
+
 public = true
