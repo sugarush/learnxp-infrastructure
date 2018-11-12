@@ -4,7 +4,9 @@ environment = "alpha"
 
 region = "us-west-2"
 
-ami = "ami-86a806fe"
+account = "689561776555"
+
+ami = "ami-02609155abd6b2e83"
 
 key = "sugarush"
 
