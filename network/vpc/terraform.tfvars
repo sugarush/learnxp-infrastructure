@@ -1,7 +1,7 @@
 terragrunt = {
   terraform {
     #source = "git@github.com:sugarush/terraform-modules.git//network"
-    source = "../../terraform-modules/network"
+    source = "../../../terraform-modules/vpc"
   }
 
   include {
