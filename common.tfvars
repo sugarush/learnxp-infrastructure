@@ -6,7 +6,7 @@ region = "us-west-2"
 
 account = "689561776555"
 
-ami = "ami-02609155abd6b2e83"
+ami = "ami-074b4bc5ef149a1c7"
 
 key = "sugarush"
 
