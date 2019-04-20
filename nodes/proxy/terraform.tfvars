@@ -12,8 +12,8 @@ terragrunt = {
 role = "proxy"
 type = "t2.micro"
 iam_profile = "ec2-general"
-security = [ "private", "world", "world-ssh" ]
+security = [ "private", "world", "world-ssh", "world-openvpn", "world-email-out" ]
 nodes = 1
 
 public = true
-public_zone = "lrnxp.com"
+#public_zone = "lrnxp.com"
