@@ -10,7 +10,7 @@ terragrunt = {
 }
 
 role = "build"
-type = "t2.micro"
+type = "t2.small"
 iam_profile = "ec2-build"
 security = [ "private", "world" ]
 nodes = 1
