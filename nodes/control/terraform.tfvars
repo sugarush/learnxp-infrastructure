@@ -13,4 +13,5 @@ role = "control"
 type = "t2.micro"
 iam_profile = "ec2-general"
 security = [ "private", "world" ]
+volume_size = "50"
 nodes = 3
