@@ -13,7 +13,7 @@ distribution = "archlinux"
 role = "web"
 type = "t2.micro"
 iam_profile = "ec2-general"
-security = [ "private", "world", "world-http-in" ]
+security = [ "private", "world", "cloudflare" ]
 nodes = 1
 
 public = true

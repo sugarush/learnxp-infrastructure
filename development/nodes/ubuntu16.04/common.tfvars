@@ -1,1 +1,1 @@
-ami = "ami-0fdc76b21cf1a489b"
+ami = "ami-065c851b7e6d24674"
